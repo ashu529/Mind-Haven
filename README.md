@@ -1,54 +1,56 @@
-# 🧠 MindHaven
 
-**MindHaven** is a clean, visually engaging static blog website designed to provide users with curated content in a beautiful layout. Built using HTML and CSS, it includes several media assets to enhance the user experience.
+# 🧠 MindHaven – A Mental Health Blog Website
 
-## 📸 Features
+**MindHaven** is a static mental health blog website designed to provide a calming, supportive space for users to read articles, find helpful resources, and connect with wellness content. Built using HTML and CSS, it focuses on accessibility, simplicity, and thoughtful design.
 
-- Responsive blog layout
-- Profile and author sections
-- Custom styling with CSS
-- Integrated icons and images
-- Static frontend site – ideal for demos and showcases
+## 💡 Project Objective
 
-## 🛠 Tech Stack
+To raise awareness and encourage conversations around mental health by building an engaging blog platform that presents informative content and promotes emotional well-being.
 
-- **HTML5**
-- **CSS3**
-- **Media Assets (JPG, JPEG, PNG)**
+## 🌟 Features
+
+- Home page with blog-style layout
+- Author section with images
+- Clean and calming UI design
+- Static responsive frontend (HTML + CSS)
+- Icons and imagery related to mental wellness
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Custom icons & images
 
 ## 📁 Folder Structure
 
 MindHaven/
-├── blogwebsite.html # Main blog page
-├── blogwebsite.css # Styling for blog page
-├── firstpage.css # Additional styles (optional)
-├── account-icon.jpg # UI icon
-├── author1.jpg # Author profile image
+├── blogwebsite.html # Main blog webpage
+├── blogwebsite.css # Styling for the blog page
+├── firstpage.css # Optional additional styling
+├── author1.jpg # Author image
 ├── author2.jpg
 ├── author3.jpg
 ├── author4.jpg
-├── cameraicon.jpeg # Decorative icon
-├── doumenticon.jpeg # Document icon
+├── account-icon.jpg # Icon for user
+├── cameraicon.jpeg # UI image
+├── doumenticon.jpeg # Icon for articles
 
-bash
-Copy
-Edit
+
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
-   
-   git clone https://github.com/your-username/MindHaven.git
-   cd MindHaven
-Open the HTML file
+### 1. Clone the Repository
 
-Open blogwebsite.html directly in your browser.
+git clone https://github.com/your-username/MindHaven.git
+cd MindHaven
+2. Open the Project
+You can open the blogwebsite.html file directly in any browser or use VS Code + Live Server extension for development.
 
-Or open in VS Code and use Live Server.
+🧠 Why This Matters
+Mental health is just as important as physical health. MindHaven is a step toward making mental wellness resources and stories more visible and accessible in a friendly, welcoming space.
 
-💡 Customization
-Update images in the same directory.
+🖼️ Screenshots
+Add screenshots of your homepage and author section here.
 
-Modify text and structure in blogwebsite.html.
-
-Edit styles in blogwebsite.css and firstpage.css.
+🤝 Contributing
+Feel free to fork this project and improve it — whether by adding new articles, connecting it to a backend, or enhancing its design.
