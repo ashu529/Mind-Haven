@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal Existing</title>
+  <link rel="stylesheet" href="firstpage.css">
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 30px auto;
+
+  }
+  
+
+  .diary-entry {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .entry-date {
+    font-size: 12px;
+    color: #7f8c8d;
+  }
+  
+  .entry-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .entry-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
+  .mood-icons {
+    margin-top: 15px;
+  }
+  
+  .mood-icon {
+    font-size: 30px;
+  }
+  
+  footer {
+    background-color: #ecf0f1;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-icons button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .footer-icons button:hover {
+    color: #3498db;
+  }
+  .addnewentrybutton {
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.addnewentrybutton button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.addnewentrybutton button a {
+    text-decoration: none;
+    color: white;
+}
+
+.addnewentrybutton button:hover {
+    background-color: #2980b9;
+}
+
+  </style>
+</head>
+<body>
+    <div class="header">
+
+        <header class="header-content">
+
+            <a href="#logo" class="logo">
+                <img src="./images/logo without caption.png" alt="logoImage" class="logo-icon" />
+                <span class="logo-text">MindHaven: Track, Reflect, Heal</span>
+            </a>
+
+            <nav class="nav">
+                <a href="firstpage.html" class="nav-link">Home</a>
+                <a href="journalexisting.html" class="nav-link">Journaling</a>
+                <a href="moodtracker.html" class="nav-link">Mood-Tracking</a>
+                <a href="blogwebsite.html" class="nav-link">Blog</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+
+            <a href="#contact" class="contact-button">
+                Contact Us
+            </a>
+
+            <button type="button" class="menu-button">
+                <img src="./images/Hamburger.svg" alt="menuButton" class="menu-icon" />
+            </button>
+
+        </header>
+
+    </div>
+
+  <div class="container">
+    <div class="addnewentrybutton">
+        <button><a href="newjournal.html">New Entry</a></button>
+    </div>
+
+    <section class="diary-entry">
+      <div class="entry-date">
+        <span class="date">12 | Sep, 2024</span>
+        <span class="day">Thursday</span>
+      </div>
+      <h2 class="entry-title">Lonely in the midst of many</h2>
+      <p class="entry-text">Things are chaotic and hard at present....they seem to change for good but then take literally ten steps backward for the bad... navigating life through ...</p>
+      <div class="mood-icons">
+        <span class="mood-icon">😔</span>
+      </div>
+    </section>
+
+    <section class="diary-entry">
+      <div class="entry-date">
+        <span class="date">08 | Sep, 2024</span>
+        <span class="day">Sunday</span>
+      </div>
+      <h2 class="entry-title">Oh Life...</h2>
+      <p class="entry-text">Life...Oh Life. Since when you have become so lonely... Having me disturbed forever....... </p>
+      <div class="mood-icons">
+        <span class="mood-icon">😢</span>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>

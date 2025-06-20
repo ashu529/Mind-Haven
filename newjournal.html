@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note App</title>
+  <link rel="stylesheet" href="newjournal.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+          <button class="back-btn"><a href="journalexisting.html">←</a></button>
+          <div>
+            <input type="date" id="noteDate" class="date-picker">
+          </div>
+        </div>
+        <button class="save-btn">Save</button>
+      </header>
+      
+
+    <!-- Main Content -->
+    <main class="content">
+      <input type="text" id="title" placeholder="Title" class="title-input">
+      <textarea id="noteContent" placeholder="Start typing here..." class="content-input"></textarea>
+    </main>
+
+    <!-- Footer Navigation -->
+    <footer class="footer">
+      <button><img src="doumenticon.jpeg" alt="Document Icon" id="documenticon"></button>
+      <button><img src="imageicon.jpeg" alt="Image Icon" id="imageicon"></button>
+      <button><img src="cameraicon.jpeg" alt="Camera Icon" id="cameraicon"></button>
+      <button><img src="smileicon.jpeg" alt="Smile Icon" id="smileicon"></button>
+    </footer>
+  </div>
+
+  <script>
+        const saveButton = document.querySelector('.save-btn');
+        saveButton.addEventListener('click', function() {
+        const title = document.getElementById('title').value;
+        const content = document.getElementById('noteContent').value;
+        alert(`Title: ${title}\nContent: ${content}`);
+});
+  </script>
+</body>
+</html>
